@@ -359,7 +359,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "新增[gpt-4-视觉]模型。使用格式：[](url)提示词。例如：[](https://pic.baike.soso.com/ugc/baikepic2/0/20220302162625-1199467537_png_548_658_45411.jpg/800)请告诉我图片中是谁，情绪如何。",
+    BotHello: "新增[gpt-4-视觉]模型，因为界面问题显示不全，请打开编辑框查看使用格式。\n\n使用格式：[](url)提示词。例如：[](https://pic.baike.soso.com/ugc/baikepic2/0/20220302162625-1199467537_png_548_658_45411.jpg/800)请告诉我图片中是谁，情绪如何，中文回答。\n\n本地图片转url网站：[薄荷图床](https://zixiaoyun.com/)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
