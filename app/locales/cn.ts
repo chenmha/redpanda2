@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "新增**gpt-4-视觉**模型，使用格式如下：\n\n```\n[图片](url)提示词。\n```\n例如：\n```\n[图片](https://picx.zhimg.com/ee034b43e11112a1589bd74c0f47edd1_r.jpg)\n请告诉我图片中是谁，情绪如何，用中文回答。\n```\n\n本地图片转url网站：[薄荷图床](https://zixiaoyun.com/)",
+    BotHello: "新增图片上传功能，直接与图片对话。选择gpt-4-turbo-2024-04-09，聊天框上方即出现上传图片按钮。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
