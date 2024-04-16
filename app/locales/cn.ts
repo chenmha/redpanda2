@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "新增目前最强模型gpt-4-turbo-2024-04-09，建议在设置中更改默认模型为此模型。新增图片上传功能，直接与图片对话。选择gpt-4-turbo-2024-04-09，聊天框上方即出现上传图片按钮。",
+    BotHello: "新增目前最强模型gpt-4-turbo-2024-04-09，建议在设置中更改默认模型为此模型。新增图片上传功能，直接与图片对话。选择gpt-4-turbo-2024-04-09，聊天框上方即出现上传图片按钮。\n\n新增联网功能，选择三个模型任意一种即可联网：bing-Creative（创意模式），bing-Balanced（平衡模式），bing-Precise（精确模式）。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
