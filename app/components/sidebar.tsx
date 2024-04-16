@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           高门学术AI
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          考一张驾照，而不是和AI赛跑。
+          考一张驾照，而不是和AI这台跑车赛跑。
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
