@@ -155,7 +155,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          高门学术AI
+          搞学术
         </div>
         <div className={styles["sidebar-sub-title"]}>
           不要和AI这台汽车赛跑，而是考一张驾照。
